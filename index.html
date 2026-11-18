@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>TapTheCities — город сам расскажет о себе</title>
+<meta name="description" content="Нажмите на любой дом или улицу — голос расскажет, кто здесь жил и почему улица так называется. В телефоне, без приложения, без интернета на прогулке.">
+<meta name="theme-color" content="#0B4A57">
+<link rel="icon" href="img/icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,600;0,7..72,700;1,7..72,500&family=Manrope:wght@500;600;700;800&display=swap">
+<link rel="stylesheet" href="style.css">
+</head><body><header class="top"><div class="wrap top-in">
+  <a class="logo" href="index.html" aria-label="TapTheCities — на главную"><img src="img/icon.svg" alt="" width="40" height="40"><span><b>TapTheCities</b><small>by The Travel Beacon</small></span></a>
+  <a class="help-link" href="help.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 18h2v-2h-2v2zm1-16a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm0 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16zm0-14a4 4 0 0 0-4 4h2a2 2 0 1 1 4 0c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5a4 4 0 0 0-4-4z"/></svg><span>Спросить Виталия</span></a>
+</div></header>
+<main>
+<section class="hero">
+  <div class="hero-pics" aria-hidden="true"><img src="img/lisbon.webp" alt=""><img src="img/barcelona.webp" alt=""><img src="img/valencia.webp" alt=""></div>
+  <div class="wrap hero-in" id="hero-txt">
+    <p class="eyebrow">Аудиопрогулки по городам</p>
+    <h1>Город сам расскажет о себе. <em>Одно касание.</em></h1>
+    <p class="lead">Нажмите на любой дом или улицу — голос расскажет, кто здесь жил, почему улица так называется и что вы прошли бы мимо, не заметив.</p>
+    <div class="hero-btns"><a class="btn big" href="#cities"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5.1 9 3 3 5v16l6-2.1 6 2.1 6-2V3l-6 2.1zM15 19l-6-2.1V5l6 2.1V19z"/></svg><span>Выбрать город</span></a><button class="listen" type="button" data-read="hero-txt" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10v4h4l5 4V6L7 10H3zm13.5 2A4.5 4.5 0 0 0 14 8v8a4.5 4.5 0 0 0 2.5-4zM14 3.2v2.1a7 7 0 0 1 0 13.4v2.1a9 9 0 0 0 0-17.6z"/></svg><span>Слушать</span></button></div>
+    <ul class="ticks"><li>Без приложения</li><li>Без интернета на прогулке</li><li>Мужской или женский голос</li></ul>
+  </div>
+</section>
+
+<section class="wrap block">
+  <figure class="video" data-video>
+  <img src="img/lisbon.webp" alt="" loading="lazy">
+  <button type="button" class="video-play" aria-label="Что такое TapTheCities — за одну минуту"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></button>
+  <figcaption><b>Что такое TapTheCities — за одну минуту</b><span>1 минута · видео готовится</span></figcaption>
+</figure>
+</section>
+
+<section class="wrap block" id="how">
+  <h2 class="h2">Три шага — и вы гуляете с рассказчиком</h2>
+  <ol class="steps">
+    <li><span class="n">1</span><b>Выберите город</b><p>Ниже — все города, которые уже готовы.</p></li>
+    <li><span class="n">2</span><b>Скачайте один раз</b><p>Дома или в отеле, по Wi‑Fi. Потом интернет не нужен.</p></li>
+    <li><span class="n">3</span><b>Идите и слушайте</b><p>Нажмите на дом или улицу рядом — голос расскажет его историю.</p></li>
+  </ol>
+</section>
+
+<section class="wrap block" id="cities">
+  <h2 class="h2">Выберите город</h2>
+  <div class="country">
+    <h3><img src="img/flags/pt.svg" alt="" width="40" height="28">Португалия</h3>
+    <div class="cards"><a class="card" href="lisbon.html">
+      <img src="img/lisbon.webp" alt="Лиссабон · башня Белен на берегу Тежу" loading="lazy" width="800" height="1000">
+      <span class="card-cap"><b>Лиссабон</b><em>536 мест · 2 339 улиц</em><span class="card-go">Открыть →</span></span>
+    </a></div>
+  </div>
+  <div class="country">
+    <h3><img src="img/flags/es.svg" alt="" width="40" height="28">Испания</h3>
+    <div class="cards"><a class="card" href="barcelona.html">
+      <img src="img/barcelona.webp" alt="Барселона · Саграда Фамилия" loading="lazy" width="800" height="1000">
+      <span class="card-cap"><b>Барселона</b><em>889 мест · 3 601 улиц</em><span class="card-go">Открыть →</span></span>
+    </a><a class="card" href="valencia.html">
+      <img src="img/valencia.webp" alt="Валенсия · кафедральный собор" loading="lazy" width="800" height="1000">
+      <span class="card-cap"><b>Валенсия</b><em>218 мест · 2 207 улиц</em><span class="card-go">Открыть →</span></span>
+    </a></div>
+  </div>
+  <p class="soon">Следующие города уже готовятся.</p>
+</section>
+
+<section class="wrap block">
+  <a class="ask" href="help.html">
+    <span class="ask-ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 18h2v-2h-2v2zm1-16a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm0 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16zm0-14a4 4 0 0 0-4 4h2a2 2 0 1 1 4 0c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5a4 4 0 0 0-4-4z"/></svg></span>
+    <span><b>Спросить Виталия</b><span>Какой телефон подойдёт, хватит ли памяти, как скачать на iPhone и Android — все ответы в одном месте.</span></span>
+    <span class="ask-go">→</span>
+  </a>
+</section>
+</main><footer class="foot"><div class="wrap">
+  <div class="foot-row">
+    <a class="logo light" href="index.html"><img src="img/icon.svg" alt="" width="36" height="36"><span><b>TapTheCities</b><small>by The Travel Beacon</small></span></a>
+    <p>Бета-версия · бесплатно. Город рассказывает голосом, карта работает в телефоне без приложения.</p>
+    <a class="foot-tb" href="https://thetravelbeacon.com/" target="_blank" rel="noopener">The Travel Beacon — кто мы →</a>
+  </div>
+  <p class="credits">Фото: Лиссабон — <a href="https://commons.wikimedia.org/wiki/File:Belem_Tower_-_April_2019_(2).jpg" target="_blank" rel="noopener">Rehman Abubakr</a>, CC BY-SA 4.0 · Барселона — <a href="https://commons.wikimedia.org/wiki/File:SF_maig_2026.jpg" target="_blank" rel="noopener">Canaan</a>, CC BY-SA 4.0 · Валенсия — <a href="https://commons.wikimedia.org/wiki/File:Catedral_de_Valencia,_Valencia,_Espa%C3%B1a,_2014-06-30,_DD_160.JPG" target="_blank" rel="noopener">Diego Delso</a>, CC BY-SA 3.0. Карты © участники OpenStreetMap.</p>
+</div></footer><div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script>
+(function(){
+  var T=document.getElementById("toast"),tt;
+  function toast(s){T.textContent=s;T.classList.add("on");clearTimeout(tt);tt=setTimeout(function(){T.classList.remove("on")},4200);}
+  document.querySelectorAll("[data-video] .video-play").forEach(function(b){b.onclick=function(){toast("Видео появится в ближайшие дни. А пока — откройте карту и нажмите на любую улицу.");};});
+  var S=window.speechSynthesis, cur=null;
+  function voice(){var v=S.getVoices().filter(function(x){return /^ru/i.test(x.lang)});return v[0]||null;}
+  document.querySelectorAll("[data-read]").forEach(function(b){
+    if(!S||!window.SpeechSynthesisUtterance) return; b.hidden=false;
+    b.onclick=function(){
+      if(cur===b){S.cancel();cur=null;b.classList.remove("on");return;}
+      S.cancel(); document.querySelectorAll(".listen.on").forEach(function(x){x.classList.remove("on")});
+      var el=document.getElementById(b.dataset.read); if(!el) return;
+      var u=new SpeechSynthesisUtterance(el.innerText.replace(/\s+/g," ")); u.lang="ru-RU"; var v=voice(); if(v) u.voice=v;
+      u.onend=u.onerror=function(){if(cur===b){cur=null;b.classList.remove("on");}};
+      cur=b; b.classList.add("on"); S.speak(u);
+    };
+  });
+  var q=document.getElementById("faq-q");
+  if(q) q.oninput=function(){var s=q.value.trim().toLowerCase(),n=0;document.querySelectorAll(".faq details").forEach(function(d){var ok=!s||d.innerText.toLowerCase().indexOf(s)>=0;d.hidden=!ok;if(ok)n++;if(s&&ok)d.open=true;});document.getElementById("faq-none").hidden=n>0;};
+})();
+</script>
+</body></html>
